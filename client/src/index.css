@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+@layer utilities {
+  .h-calc-100vh-60 {
+    height: calc(100vh - 60px);
+  }
+}
+
+body {
+    background-color: #000000;
+}
